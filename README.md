@@ -29,6 +29,10 @@ yarn dev
 
 [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
 
+## Testando a API
+
+Para testar os endpoints basta importar o arquivo 'requests.json' para o [Insomnia](https://insomnia.rest/) localizado em 'test/insomnia'. Esse arquivo possui todas as chamadas aos endpoints criado no porjeto.
+
 ## Aulas
 
 [13/01 Conhecendo a OmniStack](https://youtu.be/H-z0aO5Wx00)
