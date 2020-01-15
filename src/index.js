@@ -6,8 +6,8 @@ const routes = require('./routes');
 
 const app = express();
 
-const dataBaseConnection = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0-tuars.mongodb.net/week10?retryWrites=true&w=majority`;
-mongosse.connect(dataBaseConnection, { 
+const databaseConnection = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0-tuars.mongodb.net/week10?retryWrites=true&w=majority`;
+mongosse.connect(databaseConnection, { 
     useNewUrlParser: true, // Fix: DeprecationWarning: current URL string parser is deprecated
     useUnifiedTopology: true, // Fix: DeprecationWarning: current Server Discovery and Monitoring engine is deprecated
     useCreateIndex: true, // Fix: DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
