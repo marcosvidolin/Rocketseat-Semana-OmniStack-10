@@ -1,3 +1,5 @@
+![rocket](rocket.jpg)
+
 # RocketSeat - semana OmniStack edição 10
 
 Projeto de estudo da semana OmniStack do RocketSeat
