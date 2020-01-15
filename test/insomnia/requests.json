@@ -1,0 +1,187 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2020-01-15T14:47:00.731Z",
+    "__export_source": "insomnia.desktop.app:v7.0.4",
+    "resources": [{
+        "_id": "req_b19eb2ac44f1401eb826e8e4d7c4c47f",
+        "authentication": {},
+        "body": {
+            "mimeType": "application/json",
+            "text": "{\n\t\"github_username\": \"marcosvidolin\",\n\t\"techs\": \"Nodejs, Java, Kubernetes\",\n\t\"latitude\": 22.6907306,\n\t\"longitude\": -46.9877737\n}"
+        },
+        "created": 1550933794164,
+        "description": "",
+        "headers": [{
+            "id": "pair_1d22ce9891064bca980b1bb846d8b085",
+            "name": "Content-Type",
+            "value": "application/json"
+        }],
+        "isPrivate": false,
+        "metaSortKey": -1550933794165,
+        "method": "POST",
+        "modified": 1579078999027,
+        "name": "Criar Devs",
+        "parameters": [],
+        "parentId": "wrk_0fb41e8d8daa43818ed816dc3b350e7c",
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingFollowRedirects": "global",
+        "settingRebuildPath": true,
+        "settingSendCookies": true,
+        "settingStoreCookies": true,
+        "url": "http://localhost:3333/devs",
+        "_type": "request"
+    }, {
+        "_id": "wrk_0fb41e8d8daa43818ed816dc3b350e7c",
+        "created": 1550892128284,
+        "description": "",
+        "modified": 1550892128284,
+        "name": "Insomnia",
+        "parentId": null,
+        "_type": "workspace"
+    }, {
+        "_id": "req_270730be83294640a24e406af89bff2b",
+        "authentication": {},
+        "body": {
+            "mimeType": "application/json",
+            "text": ""
+        },
+        "created": 1579053530783,
+        "description": "",
+        "headers": [{
+            "id": "pair_1d22ce9891064bca980b1bb846d8b085",
+            "name": "Content-Type",
+            "value": "application/json"
+        }],
+        "isPrivate": false,
+        "metaSortKey": -1550933794115,
+        "method": "GET",
+        "modified": 1579053545808,
+        "name": "Listar Devs",
+        "parameters": [],
+        "parentId": "wrk_0fb41e8d8daa43818ed816dc3b350e7c",
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingFollowRedirects": "global",
+        "settingRebuildPath": true,
+        "settingSendCookies": true,
+        "settingStoreCookies": true,
+        "url": "http://localhost:3333/devs",
+        "_type": "request"
+    }, {
+        "_id": "req_8f88bb12473f40e49996b77b26991b63",
+        "authentication": {},
+        "body": {
+            "mimeType": "application/json",
+            "text": ""
+        },
+        "created": 1579053915051,
+        "description": "",
+        "headers": [{
+            "id": "pair_1d22ce9891064bca980b1bb846d8b085",
+            "name": "Content-Type",
+            "value": "application/json"
+        }],
+        "isPrivate": false,
+        "metaSortKey": -1550933794065,
+        "method": "GET",
+        "modified": 1579055001413,
+        "name": "Buscar Devs",
+        "parameters": [{
+            "description": "",
+            "id": "pair_128153455af047a98cf0b72d3e78d8d6",
+            "name": "latitude",
+            "value": "22.6909999"
+        }, {
+            "description": "",
+            "id": "pair_788d16992bc446868295f1365116cfdd",
+            "name": "longitude",
+            "value": "-46.9870000"
+        }, {
+            "description": "",
+            "id": "pair_f579769771ef44b79fc930aafc50b37b",
+            "name": "techs",
+            "value": "Java"
+        }],
+        "parentId": "wrk_0fb41e8d8daa43818ed816dc3b350e7c",
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingFollowRedirects": "global",
+        "settingRebuildPath": true,
+        "settingSendCookies": true,
+        "settingStoreCookies": true,
+        "url": "http://localhost:3333/search",
+        "_type": "request"
+    }, {
+        "_id": "env_0c39905d9e72489e9d880b2bf468c1a8",
+        "color": null,
+        "created": 1550892128311,
+        "data": {},
+        "dataPropertyOrder": null,
+        "isPrivate": false,
+        "metaSortKey": 1550892128311,
+        "modified": 1550892128311,
+        "name": "New Environment",
+        "parentId": "wrk_0fb41e8d8daa43818ed816dc3b350e7c",
+        "_type": "environment"
+    }, {
+        "_id": "jar_c147def5e9c74d029d831ab300cb141d",
+        "cookies": [{
+            "creation": "2019-02-27T14:16:40.974Z",
+            "domain": "https://dev-btsapps.ciandt.com/users/me",
+            "expires": null,
+            "id": "23086143827010552",
+            "key": "foo",
+            "path": "/",
+            "value": "bar"
+        }, {
+            "creation": "2019-02-27T14:16:40.979Z",
+            "domain": "dev-btsapps.ciandt.com",
+            "hostOnly": true,
+            "httpOnly": true,
+            "id": "34866874781718904",
+            "key": "JSESSIONID",
+            "lastAccessed": "2019-02-27T14:43:13.750Z",
+            "path": "/",
+            "value": "B31CFD1F5BCE5338FCB6F3B06868F5D9"
+        }, {
+            "creation": "2019-03-01T11:16:51.263Z",
+            "domain": "btsapps.ciandt.com",
+            "hostOnly": true,
+            "httpOnly": true,
+            "id": "3603699510031706",
+            "key": "JSESSIONID",
+            "lastAccessed": "2019-03-01T11:19:46.376Z",
+            "path": "/",
+            "value": "F4183DCC3429B5EF50906DAF1C0A9512"
+        }, {
+            "creation": "2019-04-17T19:42:19.536Z",
+            "domain": "localhost",
+            "hostOnly": true,
+            "httpOnly": true,
+            "id": "9023372980656925",
+            "key": "JSESSIONID",
+            "lastAccessed": "2019-04-17T19:42:19.536Z",
+            "path": "/",
+            "value": "CB6388CCD44977426A3F1779B0EDE8CE"
+        }],
+        "created": 1550892128313,
+        "modified": 1555530139539,
+        "name": "Default Jar",
+        "parentId": "wrk_0fb41e8d8daa43818ed816dc3b350e7c",
+        "_type": "cookie_jar"
+    }, {
+        "_id": "env_b9139a68eceb487b876aea78a7cb2c7c",
+        "color": null,
+        "created": 1550933724469,
+        "data": {},
+        "dataPropertyOrder": null,
+        "isPrivate": false,
+        "metaSortKey": 1550933724469,
+        "modified": 1550933727173,
+        "name": "New Environment",
+        "parentId": "env_0c39905d9e72489e9d880b2bf468c1a8",
+        "_type": "environment"
+    }]
+}
