@@ -4,36 +4,13 @@
 
 Projeto de estudo da semana OmniStack do RocketSeat
 
-## Set up
+## How-to
 
-Instale as dependencias do projeto rodando o comando
+O projeto é dividito em algumas partes como: backend e frontend.
+Para saber como configurar e rodar cada parte do projeto, veja a documentação especifica de cada um deles:
 
-```shell
-yarn install
-```
-
-Configure as variaveis de ambiente criando o arquivo ".env" na raiz do projeto com o conteudo:
-
-```shell
-DB_USERNAME=<trocar pelo seu user de banco>
-DB_PASSWORD=<trocar pelo seu password de banco>
-```
-
-## How to Run
-
-Execute o comando na raiz do projeto
-
-```shell
-yarn dev
-```
-
-## Database
-
-[MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
-
-## Testando a API
-
-Para testar os endpoints basta importar o arquivo 'requests.json' para o [Insomnia](https://insomnia.rest/) localizado em 'test/insomnia'. Esse arquivo possui todas as chamadas aos endpoints criado no porjeto.
+- [Front-end](./web/README.md)
+- [Back-end](./backend/README.md)
 
 ## Aulas
 
@@ -42,3 +19,7 @@ Para testar os endpoints basta importar o arquivo 'requests.json' para o [Insomn
 [14/01 Criando a base da aplicação](https://youtu.be/tqdw5KVx4ps)
 
 [15/01 Construindo a interface web](https://youtu.be/6zqO8F6uZUM)
+
+[16/01 Desenvolvendo o app mobile](https://youtu.be/3Re2sN2M8m8)
+
+[17/01 Funcionalidades avançadas](http://)

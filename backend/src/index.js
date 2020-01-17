@@ -2,6 +2,7 @@ require('dotenv').config();
 
 const express = require('express');
 const mongosse = require('mongoose');
+const cors = require('cors');
 const routes = require('./routes');
 
 const app = express();
@@ -13,6 +14,7 @@ mongosse.connect(databaseConnection, {
     useCreateIndex: true, // Fix: DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
 });
 
+app.use(cors());
 app.use(express.json());
 app.use(routes);
 
