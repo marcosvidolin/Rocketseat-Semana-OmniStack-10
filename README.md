@@ -22,4 +22,4 @@ Para saber como configurar e rodar cada parte do projeto, veja a documentação 
 
 [16/01 Desenvolvendo o app mobile](https://youtu.be/3Re2sN2M8m8)
 
-[17/01 Funcionalidades avançadas](http://)
+[17/01 Funcionalidades avançadas](https://youtu.be/SFZKupzy2Lk)
