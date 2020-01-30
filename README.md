@@ -9,9 +9,9 @@ Projeto de estudo da semana OmniStack do RocketSeat
 O projeto é dividito em algumas partes como: backend e frontend.
 Para saber como configurar e rodar cada parte do projeto, veja a documentação especifica de cada um deles:
 
+- [Back-end](./backend/README.md)
 - [Front-end](./web/README.md)
 - [Mobile](./mobile/README.md)
-- [Back-end](./backend/README.md)
 
 ## Aulas
 
